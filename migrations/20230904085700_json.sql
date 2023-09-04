@@ -1,0 +1,4 @@
+CREATE TABLE variants (
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    variant JSONB NOT NULL
+);
