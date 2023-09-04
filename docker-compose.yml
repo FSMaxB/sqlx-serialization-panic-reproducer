@@ -1,0 +1,11 @@
+version: "3.2"
+
+services:
+  database:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: sqlx-serialization-panic
+    ports:
+      - "14538:5432"
